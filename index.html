@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    
+    <!--Nav Bar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="border: 2px solid #9e3039;">
         <a class="navbar-brand" href="index.html">
             <img src="./images/NYS_-_header_logo-01_360x.webp" alt="" style="height: 40px;">
@@ -87,14 +87,14 @@
             <div class="modal-content">
                 <div class="modal-header" style="color: #9e3039;">
                     <img src="./images/NYS_-_header_logo-01_360x.webp" alt="" style="height: 40px;">
-                    <div class="d-flex justify-content-center">
-                        <h4 class="modal-title mx-auto" id="loginmodalLabel"><strong>Log In</strong></h4>
-                    </div>
                     <button class="btn" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fa fa-window-close fa-lg" style="color: #9e3039;"></i></span>
                     </button>
                 </div>
                 <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <h4 class="modal-title mx-auto" id="loginmodalLabel" style="color: #9e3039;"><strong>Log In</strong></h4>
+                    </div>
                     <form action="">
                         <div class="form-group" style="color: #9e3039;">
                             <label for="inputEmail">User Email</label>
@@ -124,14 +124,14 @@
             <div class="modal-content">
                 <div class="modal-header" style="color: #9e3039;">
                     <img src="./images/NYS_-_header_logo-01_360x.webp" alt="" style="height: 40px;">
-                    <div class="d-flex justify-content-center">
-                        <h4 class="modal-title mx-auto" id="creatAccountModalLabel"><strong>Create Account</strong></h4>
-                    </div>
                     <button class="btn" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fa fa-window-close fa-lg" style="color: #9e3039;"></i></span>
                     </button>
                 </div>
                 <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <h4 class="modal-title mx-auto" id="creatAccountModalLabel" style="color: #9e3039;"><strong>Create Account</strong></h4>
+                    </div>
                     <form action="">
                         <div class="form-group" style="color: #9e3039;">
                             <label for="inputEmail">Your Email Address</label>
@@ -173,7 +173,7 @@
         </div>
     </div>
 
-    
+    <!--Carousel-->
         <div class="row">
             <div id="carouselExampleIndicators" class="carousel slide col-3 ml-auto mr-3" data-ride="carousel" style="margin-top:10px;
             height: 350px; margin-left: 10px;">
@@ -245,7 +245,7 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
-        
+    <!--Welcome Header and text-->    
               <div class="col-8">
                   <h1 style="color: #9e3039;" class="text-center"><strong> Welcome to National Youth Sports Nevada</strong></h1>
                   <p class="text-center" style="color: #9e3039;">Give your child the gift of sports.  Create lasting memories 
@@ -255,11 +255,263 @@
                     with you child and help equip them with the skills needed in life. Instill in your kids a will to
                     succeed in a supportive and safe environment.<br><strong>NYS, Where Kid's Have a Ball.</strong></p>
                   <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-lg" style="background-color: #9e3039; color: white;">
+                    <button type="button" class="btn btn-lg" style="background-color: #9e3039; color: white;"
+                    data-toggle="modal" data-target="#registerModal">
                         Register Now</button> 
                   </div> 
               </div>
         </div>
+
+        <!--Register Now Modal-->
+        <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="./images/NYS_-_header_logo-01_360x.webp" alt="" style="height: 40px;">
+                    <button class="btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fa fa-window-close fa-lg" style="color: #9e3039;"></i></span>
+                    </button>               
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <h4 class="modal-title mx-auto" id="loginmodalLabel" style="color: #9e3039;"><strong>Registration Form</strong></h4>
+                    </div>
+                    <form action="">
+                        <div class="row mt-4">
+                            <h4 style="color: #9e3039;"><strong>Child Information</strong></h4>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-5">
+                                <label for="inputFirstName">First Name</label>
+                                <input type="name" class="form-control" id="firstName" placeholder="First Name">
+                            </div> 
+                            <div class="col-5">
+                                <label for="inputLastName">Last Name</label>
+                                <input type="name" class="form-control" id="lastName" placeholder="Last Name"> 
+                            </div>
+                            <div class="col-2">
+                                <label for="inputFirstName">Gender</label>
+                                <select id="gender" class="form-control">
+                                    <option value="selected">Choose...</option> 
+                                    <option value="male">Male</option> 
+                                    <option value="female">Female</option> 
+                                    <option value="non-binary">Non-Binary</option> 
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12"> 
+                                <label for="dateOfBirth">Date of Birth</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="inputMonth">Month</label>
+                                <select id="month" class="form-control">
+                                    <option value="selected">Choose...</option> 
+                                    <option value="january">January</option> 
+                                    <option value="february">February</option> 
+                                    <option value="march">March</option> 
+                                    <option value="april">April</option> 
+                                    <option value="may">May</option> 
+                                    <option value="june">June</option> 
+                                    <option value="july">July</option> 
+                                    <option value="august">August</option> 
+                                    <option value="september">September</option> 
+                                    <option value="october">October</option> 
+                                    <option value="november">November</option> 
+                                    <option value="december">December</option> 
+                                </select>
+                            </div>
+                            <div class="col-2">
+                                <label for="inputDay">Day</label>
+                                <select id="day" class="form-control">
+                                    <option value="selected">Choose...</option> 
+                                    <option value="">1</option> 
+                                    <option value="">2</option> 
+                                    <option value="">3</option> 
+                                    <option value="">4</option> 
+                                    <option value="">5</option> 
+                                    <option value="">6</option> 
+                                    <option value="">7</option> 
+                                    <option value="">8</option> 
+                                    <option value="">9</option> 
+                                    <option value="">10</option> 
+                                    <option value="">11</option> 
+                                    <option value="">12</option> 
+                                    <option value="">13</option> 
+                                    <option value="">14</option> 
+                                    <option value="">15</option> 
+                                    <option value="">16</option> 
+                                    <option value="">17</option> 
+                                    <option value="">18</option> 
+                                    <option value="">19</option> 
+                                    <option value="">20</option> 
+                                    <option value="">21</option> 
+                                    <option value="">22</option> 
+                                    <option value="">23</option> 
+                                    <option value="">24</option> 
+                                    <option value="">25</option> 
+                                    <option value="">26</option> 
+                                    <option value="">27</option> 
+                                    <option value="">28</option> 
+                                    <option value="">29</option> 
+                                    <option value="">30</option> 
+                                    <option value="">31</option> 
+                                </select>
+                            </div>
+                            <div class="col-3">
+                                <label for="inputYear">Year</label>
+                                <select id="day" class="form-control">
+                                    <option value="">2007</option>  
+                                    <option value="">2008</option>  
+                                    <option value="">2009</option>  
+                                    <option value="">2010</option>  
+                                    <option value="">2011</option>  
+                                    <option value="">2012</option>  
+                                    <option value="">2013</option>  
+                                    <option value="">2014</option>  
+                                    <option value="">2015</option>  
+                                    <option value="">2016</option>  
+                                    <option value="">2017</option>  
+                                    <option value="">2018</option> 
+                                </select> 
+                            </div>
+                        </div> 
+                        <div class="row">
+                            <div class="col-7">
+                                <label for="streetAddress">Street Address</label>
+                                <input type="name" class="form-control" id="firstName" placeholder="Address, Apt#">
+                            </div> 
+                            <div class="col-5">
+                                <label for="city">City</label>
+                                <input type="name" class="form-control" id="city" placeholder="City"> 
+                            </div>
+                        </div> 
+                        <div class="row">
+                            <div class="col-5">
+                                <label for="state">State</label>
+                                <input type="name" class="form-control" id="firstName" placeholder="State">
+                            </div> 
+                            <div class="col-3">
+                                <label for="zipCode">Zip Code</label>
+                                <input type="zip" class="form-control" id="city" placeholder="Zip Code"> 
+                            </div>
+                        </div> 
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="inputSport">Sport</label>
+                                <select id="sport" class="form-control">
+                                    <option value="selected">Choose...</option> 
+                                    <option value="football">Tackle Football</option> 
+                                    <option value="soccer">Soccer</option> 
+                                    <option value="tball">T-Ball/Baseball</option> 
+                                    <option value="flagfootball">Flag Football</option> 
+                                    <option value="basketball">Basketball</option> 
+                                    <option value="volleyball">Volleyball</option> 
+                                    <option value="cheerleading">Cheerleading</option> 
+                                </select>
+                            </div> 
+                            <div class="col-3">
+                                <label for="shirt">T-Shirt Size</label>
+                                <select id="tshirt" class="form-control">
+                                    <option value="selected">Choose...</option>
+                                    <option value="xxsmall">xx-Small</option>
+                                    <option value="xsmall">x-Small</option>
+                                    <option value="small">Small</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="large">Large</option>
+                                    <option value="xlarge">X-Large</option>
+                                    <option value="xxlarge">XX-Large</option>
+                                </select>    
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <h4 style="color: #9e3039;"><strong>Parent/Guardian Information</strong></h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-9">
+                                <label for="contact">Primary Contact</label>
+                                <input type="contact" class="form-control" id="contact" placeholder="Name">
+                            </div> 
+                        </div> 
+                        <div class="row">
+                            <div class="col-7">
+                                <label for="contact">Primary Contact Email</label>
+                                <input type="contact" class="form-control" id="contact" placeholder="Email">
+                            </div> 
+                            <div class="col-3">
+                                <label for="contactEmail">Primary Contact Phone</label>
+                                <input type="contact" class="form-control" id="contact" placeholder="Phone">
+                            </div> 
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="volunteer">Would You Like to Volunteer?</label>
+                                <select id="volunteer" class="form-control">
+                                    <option value="selected">Choose...</option> 
+                                    <option value="yes">Yes</option> 
+                                    <option value="no">No</option> 
+                                    <option value="maybe">Maybe</option> 
+                                </select>
+                            </div> 
+                        </div> 
+                        <div class="row">
+                            <div class="col">
+                                <label for="volunteer">What Can You Volunteer For:</label>
+                            </div>
+                        </div>  
+                        <div class="row">
+                                <div class="col-4">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="custom1">
+                                        <label for="custom1" class="custom-control-label">Coaching</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="custom2">
+                                        <label for="custom2" class="custom-control-label">Fundraising</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="custom3">
+                                        <label for="custom3" class="custom-control-label">Facilities</label>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="custom4">
+                                        <label for="custom4" class="custom-control-label">Concession Stand</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="custom5">
+                                        <label for="custom5" class="custom-control-label">Post-Season Banquet</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="custom6">
+                                        <label for="custom6" class="custom-control-label">Social Media</label>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="custom7">
+                                        <label for="custom7" class="custom-control-label">Sorry, I Can't This Year</label>
+                                    </div>
+                                </div>
+                        </div>    
+                                               
+                    </form>
+                   
+                        <div class="modal-footer d-flex justify-content-center">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn" style="background-color: white; border: 1px
+                            solid #9e3039; color: #9e3039;" data-dismiss="modal">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Jumbotron-->
         <div class="row">
             <div class="jumbotron jumbotron-fluid" style="background-color: white;">
                 <div class="container">
@@ -267,6 +519,8 @@
                 </div>
             </div>
         </div>
+
+        <!--Footer-->
         <footer class="site footer">
             <div class="container-fluid">
                 <div class="row" style="background-color: #9e3039;">
