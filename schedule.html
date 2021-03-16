@@ -211,7 +211,15 @@
                 <!--Football Calendar-->
                 <div class="tab-pane fade show active" id="football" role="tabpanel" aria-labelledby="football">
                     <div class="row">
-                        <h5 style="color: #9e3039;"><strong>Football Schedule</strong></h5>
+                        <div class="col-6">
+                            <h5 style="color: #9e3039;"><strong>Football Schedule</strong></h5>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#standingsModal"
+                            style="background-color: #9e3039; border: 2px solid #9e3039; color: white;">
+                                Football Standings
+                            </button>
+                        </div>
                     </div>
                     <div class="row justify-content-center">
                         <h2 style="color: #9e3039;"><strong>March</strong></h2>
@@ -366,13 +374,23 @@
                             <h3 class="text-right" style="color: #9e3039;"></h3>
                         </div>
                     </div>
+                    
                 </div>
             
                 <!--Soccer Calendar-->
                 <div class="tab-pane fade" id="soccer" role="tabpanel" aria-labelledby="soccer">
                     <div class="row">
-                        <h5 style="color: #9e3039;"><strong>Soccer Schedule</strong></h5>
+                        <div class="col-6">
+                            <h5 style="color: #9e3039;"><strong>Soccer Schedule</strong></h5>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#standingsModal"
+                            style="background-color: #9e3039; border: 2px solid #9e3039; color: white;">
+                                Soccer Standings
+                            </button>
+                        </div>
                     </div>
+                    
                     <div class="row justify-content-center">
                         <h2 style="color: #9e3039;"><strong>March</strong></h2>
                     </div>
@@ -532,13 +550,27 @@
                             <h3 class="text-right" style="color: #9e3039;"></h3>
                         </div>
                     </div>
+                    <div class="row">
+                        <h5 style="color: #9e3039;"><strong>Soccer Schedule</strong></h5>
+                    </div>
+                    <div class="row">
+
+                    </div>
                 </div>
             
                 <!--Baseball Calendar-->
             
                 <div class="tab-pane fade" id="baseball" role="tabpanel" aria-labelledby="baseball">
                     <div class="row">
-                        <h5 style="color: #9e3039;"><strong>T-Ball/Baseball Schedule</strong></h5>
+                        <div class="col-6">
+                            <h5 style="color: #9e3039;"><strong>Baseball Schedule</strong></h5>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#standingsModal"
+                            style="background-color: #9e3039; border: 2px solid #9e3039; color: white;">
+                                Baseball Standings
+                            </button>
+                        </div>
                     </div>
                     <div class="row justify-content-center">
                         <h2 style="color: #9e3039;"><strong>March</strong></h2>
@@ -573,8 +605,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;"></h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">1</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">1</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">2</h3>
@@ -585,16 +619,20 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">4</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">5</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">5</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">6</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">7</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">7</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">8</h3>
@@ -602,14 +640,18 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">9</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">10</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">10</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">11</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">12</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">12</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
@@ -619,8 +661,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">14</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">15</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">15</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">16</h3>
@@ -628,16 +672,20 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">17</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">18</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">18</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">19</h3>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">20</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">20</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">21</h3>
@@ -645,8 +693,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">22</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">23</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">23</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">24</h3>
@@ -654,8 +704,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">25</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">26</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">26</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
@@ -668,8 +720,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">29</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">30</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">30</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">31</h3>
@@ -683,10 +737,18 @@
                     </div>
                 </div>
 
-                <!--Flag Football Calendar-->
+                <!--Basketball Calendar-->
                 <div class="tab-pane fade" id="basketball" role="tabpanel" aria-labelledby="basketball"k>
                     <div class="row">
-                        <h5 style="color: #9e3039;"><strong>Basketball Schedule</strong></h5>
+                        <div class="col-6">
+                            <h5 style="color: #9e3039;"><strong>Basketball Schedule</strong></h5>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#standingsModal"
+                            style="background-color: #9e3039; border: 2px solid #9e3039; color: white;">
+                                Basketball Standings
+                            </button>
+                        </div>
                     </div>
                     <div class="row justify-content-center">
                         <h2 style="color: #9e3039;"><strong>March</strong></h2>
@@ -730,16 +792,20 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">3</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">4</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">4</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">5</h3>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">6</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">6</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">7</h3>
@@ -750,11 +816,15 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">9</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">10</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">10</h3>
+                            </a>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">11</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">11</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">12</h3>
@@ -764,8 +834,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">13</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">14</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">14</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">15</h3>
@@ -776,8 +848,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">17</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">18</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">18</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">19</h3>
@@ -787,8 +861,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">20</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">21</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">21</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">22</h3>
@@ -796,14 +872,18 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">23</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">24</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">24</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">25</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">26</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">26</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
@@ -816,8 +896,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">29</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">30</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">30</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">31</h3>
@@ -834,7 +916,15 @@
                 <!--Flag Football Calendar-->
                 <div class="tab-pane fade" id="flagfootball" role="tabpanel" aria-labelledby="baseball">
                     <div class="row">
-                        <h5 style="color: #9e3039;"><strong>Flag Football Schedule</strong></h5>
+                        <div class="col-6">
+                            <h5 style="color: #9e3039;"><strong>Flag Football Schedule</strong></h5>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#standingsModal"
+                            style="background-color: #9e3039; border: 2px solid #9e3039; color: white;">
+                                Flag Football Standings
+                            </button>
+                        </div>
                     </div>
                     <div class="row justify-content-center">
                         <h2 style="color: #9e3039;"><strong>March</strong></h2>
@@ -872,8 +962,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">1</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">2</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">2</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">3</h3>
@@ -886,8 +978,10 @@
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">6</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">6</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">7</h3>
@@ -895,8 +989,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">8</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">9</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">9</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">10</h3>
@@ -915,8 +1011,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">14</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">15</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">15</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">16</h3>
@@ -924,8 +1022,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">17</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">18</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">18</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">19</h3>
@@ -941,8 +1041,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">22</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">23</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">23</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">24</h3>
@@ -950,8 +1052,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">25</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">26</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">26</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
@@ -982,7 +1086,15 @@
                 <!--Volleyball Calendar-->
                 <div class="tab-pane fade" id="volleyball" role="tabpanel" aria-labelledby="baseball">
                     <div class="row">
-                        <h5 style="color: #9e3039;"><strong>Volleyball Schedule</strong></h5>
+                        <div class="col-6">
+                            <h5 style="color: #9e3039;"><strong>Volleyball Schedule</strong></h5>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end">
+                            <button type="button" class="btn" data-toggle="modal" data-target="#standingsModal"
+                            style="background-color: #9e3039; border: 2px solid #9e3039; color: white;">
+                                Volleyball Standings
+                            </button>
+                        </div>
                     </div>
                     <div class="row justify-content-center">
                         <h2 style="color: #9e3039;"><strong>March</strong></h2>
@@ -1023,8 +1135,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">2</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">3</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">3</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">4</h3>
@@ -1034,8 +1148,10 @@
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">6</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">6</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">7</h3>
@@ -1049,9 +1165,11 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">10</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">11</h3>
-                        </div>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">11</h3>
+                            </a>
+                        </div>                        
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">12</h3>
                         </div>
@@ -1060,14 +1178,18 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">13</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">14</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">14</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">15</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">16</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">16</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">17</h3>
@@ -1075,8 +1197,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">18</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">19</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">19</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
@@ -1086,14 +1210,18 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">21</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">22</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">22</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">23</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">24</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">24</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">25</h3>
@@ -1106,8 +1234,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">27</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">28</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">28</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">29</h3>
@@ -1115,8 +1245,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">30</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">31</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">31</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;"></h3>
@@ -1129,7 +1261,10 @@
                 <!--Cheerleading Calendar-->
                 <div class="tab-pane fade" id="cheerleading" role="tabpanel" aria-labelledby="cheerleading">
                     <div class="row">
-                        <h5 style="color: #9e3039;"><strong>Cheerleading Schedule</strong></h5>
+                        <div class="col-6">
+                            <h5 style="color: #9e3039;"><strong>Cheerleading Schedule</strong></h5>
+                        </div>
+                        
                     </div>
                     <div class="row justify-content-center">
                         <h2 style="color: #9e3039;"><strong>March</strong></h2>
@@ -1164,8 +1299,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;"></h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">1</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">1</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">2</h3>
@@ -1173,8 +1310,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">3</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">4</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">4</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">5</h3>
@@ -1190,8 +1329,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">8</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">9</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">9</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">10</h3>
@@ -1199,16 +1340,20 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">11</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">12</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">12</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">13</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">14</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">14</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">15</h3>
@@ -1222,16 +1367,20 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">18</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">19</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">19</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">20</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">21</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">21</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">22</h3>
@@ -1242,19 +1391,25 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">24</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">25</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">25</h3>
+                            </a>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">26</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">26</h3>
+                            </a>
                         </div>
                     </div>
                     <div class="row justify-content-center" style="height: 75px;">
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">27</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">28</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">28</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">29</h3>
@@ -1262,8 +1417,10 @@
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;">30</h3>
                         </div>
-                        <div class="col-1 cal">
-                            <h3 class="text-right" style="color: #9e3039;">31</h3>
+                        <div class="col-1 cal" style="background-color: #9e3039;">
+                            <a role="button" data-toggle="modal" data-target="#scheduleModal">
+                                <h3 class="text-right" style="color:white;">31</h3>
+                            </a>
                         </div>
                         <div class="col-1 cal">
                             <h3 class="text-right" style="color: #9e3039;"></h3>
@@ -1276,6 +1433,108 @@
             </div>
         </nav>
     </div>
+
+    <div class="modal fade" id="standingsModal" tabindex="-1" role="dialog" aria-labelledby="standingsModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    
+                        <h5 class="modal-title" style="color: #9e3039;"><strong>Football Standings</strong></h5>
+                        <button class="btn ml-auto" data-dismiss="modal" aria-labelledby="close"  
+                        style="color: #9e3039;">
+                            <span><i class="fa fa-window-close fa-lg"></i></span>
+                        </button>
+                    
+                </div>
+                
+                <div class="modal-body">
+                    <div class="row">
+                    
+                        <div class="col-5 mr-auto">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Team</th>
+                                        <th scope="col">Record</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td><strong>Packers</strong></td>
+                                        <td>8-0</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>49ers</td>
+                                        <td>6-2</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Giants</td>
+                                        <td>5-3</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Bulls</td>
+                                        <td>4-4</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                                <div class="col-5 ml-auto">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">Team</th>
+                                                <th scope="col">Record</th>
+                                            </tr>
+                                        </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Raptors</td>
+                                        <td>3-5</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Raiders</td>
+                                        <td>2-6</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Knicks</td>
+                                        <td>1-7</td>
+                                    </tr>
+                                </tbody>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Bears</td>
+                                        <td>0-8</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
     
 <!--Schedule Modal-->
 <div class="modal fade" id="scheduleModal" tabindex="-1" role="dialog" aria-labelledby="scheduleModal" 
@@ -1332,8 +1591,93 @@ aria-hidden="true">
                         </tbody>
                     </table>
                 </div>
-            <div class="modal-footer">
+            
+        </div>
+    </div>
+</div>
 
+<div class="modal fade" id="standingsModal" tabindex="-1" role="dialog" aria-labelledby="standingsModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                
+                    <h5 class="modal-title" style="color: #9e3039;"><strong>Football Standings</strong></h5>
+                    <button class="btn ml-auto" data-dismiss="modal" aria-labelledby="close"  
+                    style="color: #9e3039;">
+                        <span><i class="fa fa-window-close fa-lg"></i></span>
+                    </button>
+                
+            </div>
+            <div class="modal-body">
+                
+                    <div class="col-5">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Team</th>
+                                    <th scope="col">Record</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Packers</td>
+                                    <td>8-0</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>49ers</td>
+                                    <td>6-2</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Giants</td>
+                                    <td>5-3</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Bulls</td>
+                                    <td>4-4</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Raptors</td>
+                                    <td>3-5</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>Raiders</td>
+                                    <td>2-6</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>Knicks</td>
+                                    <td>1-7</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">8</th>
+                                    <td>Bears</td>
+                                    <td>0-8</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                
             </div>
         </div>
     </div>
@@ -1373,3 +1717,4 @@ aria-hidden="true">
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+</html>

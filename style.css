@@ -24,3 +24,16 @@ label{
     border: 1px solid black;
 }
 
+tr{
+    color: #9e3039;
+}
+
+td{
+    color: black;
+}
+
+.btn{
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+}
+
